@@ -14,8 +14,7 @@
         android:layout_height="match_parent"
         android:padding="20dp">
         <TextView
-            android:text="Merry
-Christmas"
+            android:text="Merry \n Christmas"
             android:textAlignment="center"
             android:textSize="40sp"
             android:textColor="@android:color/white"
@@ -24,6 +23,7 @@ Christmas"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
+            android:paddingTop="40dp"
             />
         <TextView
             android:text="from Febio"
