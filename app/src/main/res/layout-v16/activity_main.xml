@@ -15,11 +15,11 @@
         android:padding="20dp">
 
         <TextView
-            android:typeface="serif"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
+            android:fontFamily="@font/pacifico"
             android:lineSpacingMultiplier="0.8"
             android:paddingTop="40dp"
             android:text="@string/merryC"
