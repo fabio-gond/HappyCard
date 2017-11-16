@@ -37,7 +37,7 @@
             android:text="@string/fromFebio"
             android:textColor="@android:color/white"
             android:textSize="26sp"
-            android:fontFamily="@font/sacramento"/>
+            android:typeface="serif"/>
     </RelativeLayout>
 
 
