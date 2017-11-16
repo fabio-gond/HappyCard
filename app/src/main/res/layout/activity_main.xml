@@ -13,28 +13,31 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:padding="20dp">
+
         <TextView
-            android:text="Merry \n Christmas"
-            android:textAlignment="center"
-            android:textSize="40sp"
-            android:textColor="@android:color/white"
-            android:fontFamily="sans-serif-light"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
+            android:fontFamily="@font/pacifico"
+            android:lineSpacingMultiplier="0.8"
             android:paddingTop="40dp"
-            />
-        <TextView
-            android:text="from Febio"
-            android:textSize="26sp"
+            android:text="@string/merryC"
+            android:textAlignment="center"
             android:textColor="@android:color/white"
-            android:fontFamily="sans-serif-light"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_alignParentRight="true"
-            android:id="@+id/textView" />
+            android:layout_alignParentEnd="true"
+            android:text="@string/fromFebio"
+            android:textColor="@android:color/white"
+            android:textSize="26sp"
+            android:fontFamily="@font/sacramento"/>
     </RelativeLayout>
 
 
