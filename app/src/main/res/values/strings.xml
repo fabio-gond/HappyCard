@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Happy Card</string>
+    <string name="merryC">Merry \n Christmas!!</string>
+    <string name="fromFebio">from Febio</string>
 </resources>
